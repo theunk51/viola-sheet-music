@@ -1,0 +1,5 @@
+/** containter for main flexbox holding the cards */
+.flex-containter {
+    display: flex;
+    
+}
