@@ -1,0 +1,106 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px dodgerblue dashed;
+    margin: 5%;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    word-wrap: break-word;
+}
+
+h1, h2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.card {
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    background-color: white;
+    width: 30%;
+    min-width: 175px;
+    max-width: 500px;
+    /* height: 20%; /* causes the cards to be even */
+    /* display: flex;
+    flex-direction: column; */
+    margin: 1%;
+    border: 1px solid black;
+}
+
+.title {
+    /* height = width property of card because otherwise the 
+     * title section with be 30% width on top of the 30% of the browser
+     */
+    text-align: center;
+    /* position: relative; */
+
+}
+
+.title>h1 {
+    border: 1px royalblue solid;
+    margin: 2.5% 2px;
+    position: relative;
+}
+
+.title>h2 {
+    font-style: italic;
+    color: gray;
+    text-align: center;
+    border: 1px royalblue solid;
+    margin: 2% 23px;
+
+}
+
+.content {
+    padding: 2px 6px;
+    border-top: 2px black solid;
+}
+
+
+
+a:link {
+    color: black;
+    /* text-decoration: none; */
+}
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+@media (max-width:480px) {
+    main {
+        flex-direction: column;
+        flex-wrap: none;
+        align-items: center;
+        padding-bottom: 1%;
+    }
+
+    .card {
+        width: 92%;
+    }
+
+    .title {
+        height: 10%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
