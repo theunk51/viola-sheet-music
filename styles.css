@@ -28,8 +28,8 @@ h1, h2 {
 .card {
     border-radius: 8px;
     box-shadow: 0px 2px 5px black;
-    /* background-color: white; */
-    background-color: #e7ebea;
+    background-color: white; 
+   /* background-color: #e7ebea; */
     width: 25%;
     min-width: 175px;
     max-width: 500px;
