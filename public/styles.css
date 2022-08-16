@@ -11,6 +11,7 @@ main {
 p {
     font-family: 'Noto Sans', sans-serif;
     word-wrap: break-word;
+    margin: 0.75em 0;
 }
 
 h1, h2 {
@@ -21,7 +22,7 @@ h1, h2 {
 
 .card {
     border-radius: 8px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 0px 2px 5px black;
     background-color: white;
     width: 30%;
     min-width: 175px;
@@ -43,7 +44,7 @@ h1, h2 {
 }
 
 .title>h1 {
-    border: 1px royalblue solid;
+    /* border: 1px royalblue solid; */
     margin: 2.5% 2px;
     position: relative;
 }
@@ -52,9 +53,9 @@ h1, h2 {
     font-style: italic;
     color: gray;
     text-align: center;
-    border: 1px royalblue solid;
-    margin: 2% 23px;
-
+    /* border: 1px royalblue solid; */
+    margin: 2% 15%;
+    font-size: 18px;
 }
 
 .content {
