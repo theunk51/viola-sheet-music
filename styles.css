@@ -1,3 +1,7 @@
+body {
+     background-color: #3c3e40;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
